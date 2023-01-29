@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My HTML Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css">
+    <style>
+    
+    .section {
+      height: 100vh; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap; 
+      
+      background: linear-gradient(to left, #00d1b2, #3273dc);
+    }
+    .title {
+      width: 100%; 
+      margin-bottom: 0.5rem; 
+      color: white;
+      text-shadow: 2px 2px black;
+    }
+    
+    .button:hover {
+      transform: scale(1.1);
+      box-shadow: 2px 2px 5px black;
+    }
+    </style>
+  </head>
+  <body>
+    <section class="section has-text-centered">
+      <h1 class="title">SELECT YOUR COURSE</h1>
+      <div class="container">
+        <div class="buttons is-centered">
+          <a href="/ist"><button class="button is-primary">I-S-T</button></a>
+          <a href="/apt"><button class="button is-link">A-P-T</button></a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
